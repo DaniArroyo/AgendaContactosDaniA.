@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".fragments.ContactoFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            tools:src="@tools:sample/avatars" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCapture"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="312dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10pt"
+        android:hint="Nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextApellidos"
+        android:layout_width="312dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10pt"
+        android:hint="Apellidos"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="312dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10pt"
+        android:hint="Telefono"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="312dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10pt"
+        android:hint="Email"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="162dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="10pt"
+        android:text="Guardar" />
+
+
+
+</LinearLayout>
